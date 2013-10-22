@@ -1,6 +1,6 @@
-# Embedder
+# Embedder (WIP)
 
-TODO: Write a gem description
+Intended to be an oembed client. Not fully fleshed out yet.
 
 ## Installation
 
@@ -15,6 +15,8 @@ And then execute:
 Or install it yourself as:
 
     $ gem install embedder
+
+Set `ENV['EMBEDLY_KEY']` to your [http://embed.ly](embed.ly) API key.
 
 ## Usage
 
