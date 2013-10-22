@@ -1,0 +1,3 @@
+module Embedder
+  VERSION = "0.0.1"
+end
