@@ -6,17 +6,29 @@ Intended to be an oembed client. Not fully fleshed out yet.
 
 Add this line to your application's Gemfile:
 
-    gem 'embedder'
+```ruby
+gem 'embedder'
+```
 
 And then execute:
 
-    $ bundle
+```bash
+$ bundle
+```
 
 Or install it yourself as:
 
-    $ gem install embedder
+```bash
+$ gem install embedder
+```
 
 Set `ENV['EMBEDLY_KEY']` to your [http://embed.ly](embed.ly) API key.
+
+Parse a URL like so:
+
+```ruby
+@embed = Embedder.parse('http://www.youtube.com/watch?v=VzZ_pHmauVo')
+```
 
 ## Usage
 
