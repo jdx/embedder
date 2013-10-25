@@ -24,15 +24,13 @@ $ gem install embedder
 
 Set `ENV['EMBEDLY_KEY']` to your [http://embed.ly](embed.ly) API key.
 
+## Usage
+
 Parse a URL like so:
 
 ```ruby
-@embed = Embedder.parse('http://www.youtube.com/watch?v=VzZ_pHmauVo')
+metadata = Embedder.parse('http://www.youtube.com/watch?v=VzZ_pHmauVo')
 ```
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Contributing
 
